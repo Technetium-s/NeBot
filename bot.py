@@ -15,7 +15,7 @@ async def on_ready():
   #await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="노래 듣는중"))
   #await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="영상 시청중"))
   
-  print("Nerdic_Bot:",client.user.name,"Nerdic_Bot#7877:",client.user.id,"855249316364419082:",discord.__version__)
+  print("카벙클 에메랄드:",client.user.name,"카벙클 에메랄드#7877:",client.user.id,"855249316364419082:",discord.__version__)
 
 
 client.run(os.environ['token'])
